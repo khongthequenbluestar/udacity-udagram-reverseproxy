@@ -6,8 +6,8 @@ metadata:
   name: ducta11-kubernetes-udagram-reverseproxy-svc
 spec:
   ports:
-  - name: "8080"
-    port: 8080
-    targetPort: 8080
+  - name: "8200"
+    port: 8200
+    targetPort: 8200
   selector:
     service: ducta11-kubernetes-udagram-reverseproxy
