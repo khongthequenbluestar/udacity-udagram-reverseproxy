@@ -15,7 +15,7 @@ spec:
         service: ducta11-kubernetes-udagram-reverseproxy
     spec:
       containers:
-      - image: khongthequenbluestar/udacity-udagram-reverseproxy
+      - image: khongthequenbluestar/udacity-udagram-reverseproxy:latest
         name: ducta11-kubernetes-udagram-reverseproxy
         imagePullPolicy: Always          
         resources:
