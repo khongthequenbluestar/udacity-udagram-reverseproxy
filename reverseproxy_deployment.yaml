@@ -24,7 +24,7 @@ spec:
             cpu: "250m"
           limits:
             memory: "2048Mi"
-            cpu: "700m"       
+            cpu: "600m"       
         ports:
         - containerPort: 8200
       restartPolicy: Always
